@@ -29,7 +29,7 @@ function App() {
     <div>
       <form onSubmit={Convert}>
         <div>
-          <h3> Exchange rate </h3>
+          <h3> Exchange rates </h3>
           <label>Eur </label>
           <input type="number" step="0.01" value={eur} onChange={e=>setEur(e.target.value)}/>
           <div>
