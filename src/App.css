@@ -1,5 +1,11 @@
 
 form{
+  border: 2px solid black;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px;
+  width: fit-content;
+  padding: 10px;
+  padding-top: 0;
   margin:30px;
 }
 div{
@@ -14,4 +20,11 @@ label{
 .gbpcontainer{
   border-bottom: 2px solid black;
   width: fit-content;
+}
+button{
+  border-radius: 5px;
+}
+button:hover{
+  background-color: rgb(53, 48, 48);
+  margin-left: 1px;
 }

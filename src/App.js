@@ -41,6 +41,7 @@ function App() {
          <label>GBP </label>
          <output>{gbp.toFixed(2)}</output>
         </div>
+        <button>Calculate</button>
       </form>
     </div>
   );
